@@ -1,0 +1,199 @@
+<head>
+  <title>kirpan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .userd{
+  display:flex;
+  gap:30px
+  }
+  </style>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">FATEH</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/kada">KADA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/kanga">KANGA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/rumala">RUMALA SAHIB</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/dashboard">DASHBOARD PHOTOS</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="/hanging">CAR HANGING</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container mt-3">
+
+  <div class="userd">
+    <div class="card" style="width:400px; height:400px;">
+      <img class="card-img-top" style="width:200px;height:200px;" src="data:image/jpeg;base64,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" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">₹2500</h4>
+        <p class="card-text">7inch khanjar<br>leather cover<br>sarabhloh blade</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹2500">
+        <input type="hidden" name="code" value="901">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+
+    <div class="card" style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-top" style="width: 200px; height: 200px;" src="data:image/jpeg;base64,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" alt="Card image" >
+        <h4 class="card-title">₹350</h4>
+        <p class="card-text">stell 5inch<br>superior quality<br>sarabhloh blade</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹350">
+        <input type="hidden" name="code" value="902">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+    <div class="card"  style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-top" style="width:200px; height:200px;" src="data:image/jpeg;base64,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" alt="Card image" >
+        <h4 class="card-title">₹220</h4>
+        <p class="card-text">steel material<br>golden colour<br>size 2.5inch</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹220">
+        <input type="hidden" name="code" value="903">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+    <div class="card"  style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-top" style="width:200px; height:200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoEBe2AF9BvfMzTpwJzMw51XgfajyjtNHjfQ&usqp=CAU" alt="Card image">
+        <h4 class="card-title">₹450</h4>
+        <p class="card-text">steel cover with sarabhloh blade<br>cover with golden colour<br> size 7inch</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹450">
+        <input type="hidden" name="code" value="904">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-3">
+
+  <div class="userd">
+    <div class="card" style="width:400px; height:400px;">
+      <img class="card-img-top" style="width:200px; height:200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBAUf_c7bmgJnLM-VX49QYdD8jNAvRw2Vxw&usqp=CAU" alt="Card image" >
+      <div class="card-body">
+        <h4 class="card-title">₹3000</h4>
+        <p class="card-text">leather cover with steel material<br>sarabhloh and machine made blade<br>size 9inch</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹3000">
+        <input type="hidden" name="code" value="905">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+
+    <div class="card" style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-bottom" style="width:200px; height:200px;" src="https://sikhaccessories.com/wp-content/uploads/2021/09/buy-kirpan-online-188.jpg" alt="Card image" >
+        <h4 class="card-title">₹1800</h4>
+        <p class="card-text">wodden with steel coverage<br>steel blade<br>12inch size</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹1800">
+        <input type="hidden" name="code" value="906">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+    <div class="card" style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-bottom" style="width:200px; height:200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnMnis3wWbbOxI8Gt_75M2Cex64sx0KsjyDg&usqp=CAU" alt="Card image">
+        <h4 class="card-title">₹220</h4>
+        <p class="card-text">simpe light weight<br>red color coating in between<br>2inch size</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹220">
+        <input type="hidden" name="code" value="907">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+    <div class="card" style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-bottom" style="width:200px; height:200px;" src="https://karizmajewels.com/cdn/shop/products/saaaaaru1254_1800x1800.jpg?v=1658821954" alt="Card image">
+        <h4 class="card-title">₹180</h4>
+        <p class="card-text">wooden material<br>steel blade<br>2inch size</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹180">
+        <input type="hidden" name="code" value="908">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-3">
+
+  <div class="userd">
+    <div class="card" style="width:400px; height:400px;">
+      <img class="card-img-top" style="width:200px; height:200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYDbr6P8g0EWUhsRjS-DZTfAPQT_vcj5aHNg&usqp=CAU" alt="Card image" >
+      <div class="card-body">
+        <h4 class="card-title">₹430</h4>
+        <p class="card-text">wooden cover with laser cutting<br>with steel blade<br>7inch size</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹430">
+        <input type="hidden" name="code" value="909">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+
+    <div class="card" style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-bottom" style="width:200px; height:200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEEENo3LPAWg1SdeuhUPTtvUVKDWyN43V1BA&usqp=CAU" alt="Card image" >
+        <h4 class="card-title">₹4500</h4>
+        <p class="card-text">original silver coated with all sizes<br>with proper design<br>sarabhloh blade</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹4500">
+        <input type="hidden" name="code" value="910">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+    <div class="card" style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-bottom" style="width:200px; height:200px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3_Y2Mm4LUHlrKt1RTynq-xZr0-gyConxrvSGyO_cPCvVYV3hHPSwA-WPCAmBP-L9cdJQ&usqp=CAU" alt="Card image">
+        <h4 class="card-title">₹990</h4>
+        <p class="card-text">whole steel made with all sizes<br>cloth coverage<br>can be cuatomized</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹990">
+        <input type="hidden" name="code" value="911">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+    <div class="card" style="width:400px; height:400px;">
+      <div class="card-body">
+        <img class="card-img-bottom" style="width:200px; height:200px;" src="https://sikhaccessories.com/wp-content/uploads/2021/11/buy-kirpan-online-207.jpg" alt="Card image">
+        <h4 class="card-title">₹3000</h4>
+        <p class="card-text">silver coated with proper design<br>al sizes avilable<br>sarabhloh blade<</p>
+        <input type="text" name="quantity" placeholder="quantity(pcs)">
+        <input type="hidden" name="price" value="₹3000">
+        <input type="hidden" name="code" value="912">
+          <input type="submit" value="Order">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
